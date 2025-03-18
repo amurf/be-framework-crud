@@ -1,0 +1,25 @@
+appname: "TodoAPI"
+
+# Server configuration
+port: 8080
+host: "0.0.0.0"
+
+# Serializer configuration
+serializer: "JSON"
+engines:
+  serializer:
+    JSON:
+      pretty: 1
+      canonical: 1
+
+# Session configuration
+session: "Simple"
+engines:
+  session:
+    Simple:
+      cookie_name: todo_session
+
+# Development settings
+log: "core"
+show_errors: 1
+startup_info: 1

@@ -1,0 +1,7 @@
+secrets:
+  - 'your-secret-key-here'
+
+# Application specific settings
+todo_api:
+  host: '0.0.0.0'
+  port: 8080
